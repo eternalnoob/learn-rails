@@ -41,7 +41,8 @@ Rails.application.configure do
 	config.action_mailer.delivery_method = :smtp
 	config.action_mailer.raise_delivery_errors = true
 	#send email in development mode
-	config.action_mailer.perform_delivers = true
+	#this caused problems with rails server, comment out
+	#config.action_mailer.perform_delivers = true
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
