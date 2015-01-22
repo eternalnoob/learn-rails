@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+#ignore vim .swp files so I can commit as I code
+*.sw?
